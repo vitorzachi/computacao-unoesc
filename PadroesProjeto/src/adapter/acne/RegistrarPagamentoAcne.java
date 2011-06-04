@@ -1,5 +1,5 @@
 package adapter.acne;
-
+//conflito de svn -------------
 
 public class RegistrarPagamentoAcne {
 
