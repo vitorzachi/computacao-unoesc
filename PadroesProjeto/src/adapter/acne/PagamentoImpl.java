@@ -5,6 +5,9 @@ public class PagamentoImpl implements Pagamento {
 	@Override
 	public double getValor() {
 		//Aqui vem minha implementa√ß√£o padr√£o
+		
+		// AtualizaÁ„o de Suelen
+		System.out.println("teste");
 		return 10;
 	}
 
