@@ -20,6 +20,8 @@ public class AdapterTest {
 
 		reg.registrar(new PagamentoAdapter(pagamentoRegras));
 
+		System.out.println("Teste");
+
 	}
 
 }
