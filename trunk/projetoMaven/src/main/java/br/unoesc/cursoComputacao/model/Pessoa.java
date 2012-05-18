@@ -3,7 +3,7 @@ package br.unoesc.cursoComputacao.model;
 public class Pessoa {
 
 	private String nome;
-	private String sobrenome;
+	private String sobrenome000;
 
 	public Pessoa(String nome) {
 		super();
@@ -19,11 +19,11 @@ public class Pessoa {
 	}
 
 	public String getSobrenome() {
-		return sobrenome;
+		return sobrenome000;
 	}
 
 	public void setSobrenome(String sobrenome) {
-		this.sobrenome = sobrenome;
+		this.sobrenome000 = sobrenome;
 	}
 
 }
