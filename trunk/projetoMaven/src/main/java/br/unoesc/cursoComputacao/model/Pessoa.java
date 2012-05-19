@@ -21,6 +21,10 @@ public class Pessoa {
 		this.nome = nome;
 	}
 
+	public String getNomeSobrenome() {
+		return this.nome + " " + this.sobrenome;
+	}
+
 	public String getNome() {
 		return nome;
 	}
