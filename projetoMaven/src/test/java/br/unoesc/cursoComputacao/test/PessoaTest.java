@@ -17,4 +17,13 @@ public class PessoaTest {
 		assertEquals("Andre", pessoa.getNome());
 	}
 
+	@Test
+	public void testPessoaNomeSobrenome() {
+		Pessoa pessoa = new Pessoa("Andre");
+		pessoa.setSobrenome("Forchesatto");
+
+		assertNotNull(pessoa.getNome());
+		assertEquals("Andre Forchesatto", pessoa.getNomeSobrenome());
+	}
+
 }
