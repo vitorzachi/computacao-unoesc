@@ -7,6 +7,8 @@ public class Pessoa {
 	private String RG;
 	private String CPF;
 
+	private String branch;
+
 	public String getCPF() {
 		return CPF;
 	}
@@ -46,6 +48,14 @@ public class Pessoa {
 
 	public void setRG(String rG) {
 		RG = rG;
+	}
+
+	public String getBranch() {
+		return branch;
+	}
+
+	public void setBranch(String branch) {
+		this.branch = branch;
 	}
 
 }
