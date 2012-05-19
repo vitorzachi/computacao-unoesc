@@ -5,14 +5,14 @@ public class Pessoa {
 	private String nome;
 	private String sobrenome;
 	private String RG;
-	private Long cpf;
+	private Long CPF;
 	
 	
-	public Long getCpf() {
+	public Long getCPF() {
 		return cpf;
 	}
 
-	public void setCpf(Long cpf) {
+	public void setCPF(Long cpf) {
 		this.cpf = cpf;
 	}
 
