@@ -23,7 +23,7 @@ public class Pessoa {
 	}
 
 	public String getNomeSobrenome() {
-		return this.nome + " " + this.sobrenome;
+		return this.nome + "" + this.sobrenome;
 	}
 
 	public String getNome() {
