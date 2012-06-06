@@ -25,5 +25,12 @@ public class PessoaTest {
 		assertNotNull(pessoa.getNome());
 		assertEquals("Andre Forchesatto", pessoa.getNomeSobrenome());
 	}
+	@Test
+	public void testCPF(){
+		Pessoa pessoa = new Pessoa("Andre");
+		pessoa.setCPF("123456");
+		assertNotNull(pessoa.getCPF());
+		assertEquals("123456",  pessoa.getCPF());
+	}
 
 }
