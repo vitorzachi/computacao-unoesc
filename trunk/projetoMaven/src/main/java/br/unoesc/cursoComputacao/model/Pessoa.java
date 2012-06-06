@@ -9,6 +9,7 @@ public class Pessoa {
 
 	private String branch;
 
+	
 	public String getCPF() {
 		return CPF;
 	}
@@ -16,7 +17,7 @@ public class Pessoa {
 	public void setCPF(String cpf) {
 		this.CPF = cpf;
 	}
-
+		
 	public Pessoa(String nome) {
 		super();
 		this.nome = nome;
